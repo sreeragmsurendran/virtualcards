@@ -9,6 +9,7 @@ import { NavComponent } from './components/NavComponent';
 import { YourCard } from './components/YourCard';
 import { AllCards } from './components/AllCards';
 import {CardProvider} from './ContextComponent';
+import { BlockedCards } from './components/BlockedCards';
 
 function App() {
   const [card, setCard] = useState([])
@@ -28,6 +29,8 @@ function App() {
   <Routes>
       <Route path="/" element={<YourCard />}></Route>
       <Route path="/all" element={<AllCards />}></Route>
+      <Route path="/blocked" element={<BlockedCards/>}></Route>
+
     </Routes>
 </BrowserRouter>
 </CardProvider>

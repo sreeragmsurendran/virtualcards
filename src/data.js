@@ -405,7 +405,7 @@ export const data =[
         "card_type":"burner",
         "expiry":"9 feb",
         "limit":100,
-        "status":"active"
+        "status":"blocked"
     }
 
 

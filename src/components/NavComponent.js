@@ -16,7 +16,7 @@ export const NavComponent = () => {
         <a className="nav-link link " href="/all">All</a>
       </li>
       <li className="nav-item ">
-        <a  className="nav-link link ">Blocked</a>
+        <a  className="nav-link link " href='/blocked'>Blocked</a>
       </li>
     </ul>
     </div>
